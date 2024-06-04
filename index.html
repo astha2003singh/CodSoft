@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+
+    <!-- NAVIGATION SECTION -->
+  
+        <header>
+            <a href="portfolio.html"></a>
+            <nav id="desktop-nav">
+               
+                <div class="logo">
+                    <h2 id="logo">Astha <span id="sin">Singh;</span></h2>
+    
+                </div>
+
+                <div class="nav-links">
+                    <ul class="list">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills </a></li>
+                        <li><a href="#projects">Project</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+    
+                </div>
+            </nav>
+            <nav id="hamburger-nav">
+
+                <div class="logo">
+                    <a href="#profile">Astha Singh</a> 
+                    </div>
+                </div>
+                <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+                <div class="menu-link">
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                        <li><a href="#about"  onclick="toggleMenu()">about </a></li>
+                        <li><a href="#projects" onclick="toggleMenu()">Project</a></li>
+                        <li><a href="#contact"  onclick="toggleMenu()">Contact Me</a></li>
+                </div>
+            </div>
+            </nav>
+
+            <!-- HOME SECTION -->
+
+            <section id="profile">
+                <div class="section_pic_container">
+                    <img src="images/Untitled design.png" alt="">
+                </div>
+                <div class="section_text">
+                    <p class="section_text_p1">Hello I'm</p>
+                    <h1 class="title">Astha Singh</h1>
+                    <p class="section_text_p2">FrontEnd Developer</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color2" onclick="window.open('./images/asthasinghresume.pdf')">
+                        Download CV
+                        </button>
+                        <button class="btn btn-color1" onclick="location.href='./#contact'">
+                        Contact Info
+                        </button>
+                    </div>
+                    <div id="socials-container">
+                        <img src="images/linkedin.png" alt="linkedin" class="icon" onclick="location.href='https://linkedin.com/'">
+                    <img src="images/github.png" alt="github" class="icon" onclick="location.href='https://github.com/'">
+                    </div>
+                </div>
+            </section>
+
+
+          <!-- ABOUT SECTION -->
+
+          <section id="about">
+          <div class="about-container">
+            <p id="text-1">Get To Know More</p>
+            <h1 id="text-2">About Me</h1>
+            <hr>
+    
+            <div class="boxes">
+                <div class="box1">
+                     <img src="images/education.png" alt="" class="edu-img">
+    
+                    <h4 class="box-content">
+                        Education <br>
+                        <h4 style="color: rgb(66, 65, 65); font-weight: 500;">
+                            B.Tech in <br>
+                            Information Technology
+                        </h4>
+                    </h4>
+                </div>
+    
+                <div class="box2">
+                    <img src="images/experience.png" alt="" class="edu-img">
+                    <h4 class="box-content">
+                        Experience <br>
+                        <h4 style="color: rgb(66, 65, 65); font-weight: 500;">
+                            1+ year in <br>
+                           FrontEnd Development
+                        </h4>
+                    </h4>
+                </div>
+            </div>
+                     <div class="about-content">
+        
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis fugiat sequi dolor nulla dignissimos expedita quas? Repellat accusantium error velit? Culpa omnis explicabo, esse provident amet excepturi Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, vel.nulla tempore saepe consectetur adipisci aperiam error velit enim repellendus unde maiores eveniet.
+            </div> 
+            <!-- <img src="images/arrow.png" alt="arrow" class="arrow-icon" onclick="location.href='./#skills'"> -->
+        </div>
+
+     
+        
+        </section>
+
+        <!-- SKILLS SECTION -->
+
+        <section id="skills">
+            <div class="skills-container">
+              <p id="text-1">Explore My</p>
+              <h1 id="text-2">Skills</h1>
+<hr>
+
+              <div class="skill-boxes">
+
+                <div class="box-a">
+                    <h2 class="head">FrontEnd Development</h2>
+                    <article>
+                        <div class="skill-content">
+                            <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                            <h3 class="content">
+                                HTML<br>
+                               <span id="skill-level"> (Experienced)</span> 
+                        </div>
+                        <div class="skill-content">
+                            <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                            <h3 class="content">
+                                CSS<br>
+                               <span id="skill-level"> (Experienced)</span> 
+                        </div>
+                        <div class="skill-content">
+                            <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                            <h3 class="content">
+                                JavaScript<br>
+                               <span id="skill-level"> (Intermediate)</span> 
+                        </div>
+                    
+                </div>
+              
+                <div class="box-b">
+                    <h2 class="head">BackEnd Development</h2>
+                    <div class="skill-content">
+                        <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                        <h3 class="content">
+                            ReactJS<br>
+                           <span id="skill-level"> (Intermediate)</span> 
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                        <h3 class="content">
+                            MySQL<br>
+                           <span id="skill-level"> (Intermediate)</span> 
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                        <h3 class="content">
+                            Python<br>
+                           <span id="skill-level"> (Intermediate)</span> 
+                    </div>
+                </div>
+              
+                <div class="box-c">
+                    <h2 class="head">Other  Tools</h2>
+                    <div class="skill-content">
+                        <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                        <h3 class="content">
+                            Tailwind CSS<br>
+                           <span id="skill-level"> (Intermediate)</span> 
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                        <h3 class="content">
+                            BOOTSTRAP<br>
+                           <span id="skill-level"> (Intermediate)</span> 
+                    </div>
+                    <div class="skill-content">
+                        <img src="images/checkmark.png" alt="checkmark" class="checkmark-icon">
+                        <h3 class="content">
+                            GitHub<br>
+                           <span id="skill-level"> (Beginner)</span> 
+                    </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- <img src="images/arrow.png" alt="arrow" class="arrow-icon" onclick="location.href='./#projects'"> -->
+            </div>
+        </section>
+
+
+<!-- PROJECT SECTION -->
+        <section id="projects">
+            <div class="project-container">
+              <p id="text-1">Browse My Recent</p>
+              <h1 id="text-2">Projects</h1>
+              <hr>
+    
+    <div class="project-boxes">
+        <div class="box-1">
+    
+        <img src="images/project-1.png" alt="" class="project-img">
+        <h3 class="heading">
+        Project-One
+    </h3>
+    <div class="buttons-cont">
+    <button class="project-btn" onclick="location.href='https://github.com/'">GitHub</button>
+    <button class="project-btn" onclick="location.href='https://google.com/'">Live Demo</button>
+    </div>
+        </div>
+    
+    
+        <div class="box-2">
+    
+            <img src="images/project-2.png" alt="" class="project-img">
+    <h3 class="heading">
+        Project-Two
+    </h3>
+    
+    <div class="buttons-cont">
+        <button class="project-btn" onclick="location.href='https://github.com/'">GitHub</button>
+        <button class="project-btn" onclick="location.href='https://google.com/'">Live Demo</button>
+        </div>
+        </div>
+        <div class="box-3">
+            
+        <img src="images/project-3.png" alt="" class="project-img">
+    <h3 class="heading">
+        Project-Three
+    </h3>
+    
+    <div class="buttons-cont">
+        <button class="project-btn" onclick="location.href='https://github.com/'">GitHub</button>
+        <button class="project-btn" onclick="location.href='https://google.com/'">Live Demo</button>
+        </div>
+        </div>
+    </div>
+    <!-- <img src="images/arrow.png" alt="arrow" class="arrow-icon" onclick="location.href='./#contact'"> -->
+    </section>
+
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+
+        <section id="contact">
+            <div class="contact-container">
+                <form  action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get In Touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="d69d6944-21cc-4a3c-a53a-b18b2024cecd">
+                <input type="text" name="name" placeholder="Enter Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Enter Email" class="contact-input" required>
+                <textarea name="message" placeholder="Message" class="contact-input" required></textarea>
+                <button type="submit" >Submit <img src="images/512_form_img/assets/arrow_icon.png" alt=""> </button>
+                </form>
+                <div class="contact-right">
+                <img src="images/contact2-icon.png" alt="">
+                </div>
+                
+                    </div>
+</section>
+
+
+<!-- FOOTER SECTION -->
+
+<footer>
+<div class="footer">
+    <div class="foot1">
+        <p>Copyright &#169; 2024 Astha Singh. All Rights Reserved.</p>
+    </div>
+   <div class="foot2">
+    <img src="images/linkedin.png" alt="linkedin" class="icon" id="footicon1" onclick="location.href='https://linkedin.com/'">
+    <img src="images/github.png" alt="github" class="icon" id="footicon2" onclick="location.href='https://github.com/'">
+   </div>
+
+</div>
+  
+</footer>
+            <script src="script.js"></script>
+</body>
+</html>
